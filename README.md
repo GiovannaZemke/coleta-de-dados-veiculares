@@ -2,18 +2,21 @@
 
 ## Como utilizar aplicações questão 3
 Para utilizar as aplicações seguir os seguintes passos:
+
+O pyhton deve estar instalado na máquina
+
 É necessário instalar a biblioteca requests (presente em requirements.txt)
-Pode ser instalado com o seguinte comando:
+Pode ser instalado com o seguinte comando no prompt de comando:
 
 * python -m pip install requests
   
-Deve-se inicializar o servidor na aplicação servidor.py.
-Abrir a pasta no prompt de comando e digitar o seguinte código:
+Agora, deve-se inicializar o servidor.
+Para isso, abrir o arquivo aplicação.bat e digitar o seguinte código:
 
 * python servidor.py
 
 Em seguida, para simular os dados veiculares, a aplicação coletor.py deve ser inicializada
-Com a pasta aberta em outro prompt de comando digitar o seguinte código:
+Executar novamente o arquivo aplicação.bat digitar o seguinte código:
 
 * python coletor.py
 
@@ -25,7 +28,7 @@ autoInfoFile.txt
 
 Nestes estão guardados os dados em seus respectivos formatos.
 
-Para para qualquer um das duas aplicações basta enviar Ctrl+c nos terminais
+Para parar qualquer um das duas aplicações basta enviar Ctrl+c nos terminais
 
 ## Proposta
 Desenvolva duas aplicações usando a linguagem Python ou C++, que simulem um sistema de coleta, envio e
