@@ -71,8 +71,8 @@ def get_farois():
                 return ("Alto")
 
 
-while True:
-
+try:
+    while True:
         dados = dict()
         dados['date time']=get_date_time()
         dados['velocidade']= get_velocidade()
@@ -87,5 +87,8 @@ while True:
 
         r = requests.post('http://127.0.0.1:8000', data=dados)
         time.sleep(0.2)
+
+except KeyboardInterrupt:
+    print("Execução interrompida pelo usuário")
 
 
