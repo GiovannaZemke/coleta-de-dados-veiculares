@@ -5,7 +5,7 @@ Para utilizar as aplicações seguir os seguintes passos:
 É necessário instalar a biblioteca requests (presente em requirements.txt)
 Pode ser instalado com o seguinte comando:
 
-* pip install requests
+* python -m pip install requests
   
 Deve-se inicializar o servidor na aplicação servidor.py.
 Abrir a pasta no prompt de comando e digitar o seguinte código:
