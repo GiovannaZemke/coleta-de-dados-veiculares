@@ -3,7 +3,7 @@
 ## Como utilizar aplicações questão 3
 Para utilizar as aplicações seguir os seguintes passos:
 
-O pyhton deve estar instalado na máquina
+O python deve estar instalado na máquina
 
 É necessário instalar a biblioteca requests (presente em requirements.txt)
 Pode ser instalado com o seguinte comando no prompt de comando:
